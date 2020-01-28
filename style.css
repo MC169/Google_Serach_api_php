@@ -1,0 +1,21 @@
+html{}
+body{}
+.responselist{
+	list-style-type:none;
+}
+
+.responselist li{
+	padding: 10px;
+}
+
+.responseelement{
+	text-align: left;
+	font-size: 16px;
+	line-height: 1em;
+}
+
+/*_____________________________________________ Loading Cursor Animation_____________________________________________________*/
+html.loading,
+html.loading * {
+    cursor: Progress !important;
+}
